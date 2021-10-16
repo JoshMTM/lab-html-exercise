@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="./style.css" />
     <title>Npm Clone</title>
   </head>
   <body>
     <header>
       <div>
-        <div>
-          <img src="./images/black-heart.png" alt="black-heart" /> Nifty Penguin
-          Magic
-        </div>
-        <div>
+        <img
+          class="blackHeart"
+          src="./images/black-heart.png"
+          alt="black-heart"
+        />
+        <span>Nifty Penguin Magic</span>
+        <nav>
           <ul>
-            <li>npm Enterprise</li>
-            <li>Products</li>
-            <li>Solutions</li>
-            <li>Resources</li>
-            <li>Docs</li>
-            <li>Support</li>
+            <li><a href="#">npm Enterprise</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Support</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
       <div>
-        <img src="./images/npm-logo.png" alt="npm-logo" />
-        <form action="/search" method="get">
+        <img class="logo-npm" src="./images/npm-logo.png" alt="npm-logo" />
+        <form class="form-header" action="/search" method="get">
+          <img
+            class="seach-icon"
+            src="./images/magnifying-glass.png"
+            alt="searchIcon"
+          />
           <input type="text" placeholder="Search Packages" />
           <button type="submit" name="search">Search</button>
-          <a href="#join">Join</a>
-          <a href="#Login">Log In</a>
         </form>
+        <div class="button-header">
+          <button><a href="#join">Join</a></button>
+          <button><a href="#Login">Log In</a></button>
+        </div>
       </div>
     </header>
     <section>
@@ -54,13 +64,40 @@
         loves.
       </article>
     </section>
-    NPM Clone Zero configuration Create an org, add your team, and start
-    collaborating. Nothing to configure, set up, or manage. Team management
-    Control who has access to what modules within your team namespace using
-    straightforward team management capabilities. Familiar features npm Orgs has
-    100% parity with all the public npm registry features your developers
-    already use. npm audit Enjoy the security auditing features built into the
-    npm client, a zero-friction way to make open source software safer. Create
-    an Org
+    <section>
+      <div>
+        <img src="./images/zero-configuration.svg" />
+        <h5>Zero configuration</h5>
+        <p>
+          Create an org, add your team, and start collaborating. Nothing to
+          configure, set up, or manage.
+        </p>
+      </div>
+      <div>
+        <img src="./images/team-management.svg" />
+        <h5>Team management</h5>
+        <p>
+          Control who has access to what modules within your team namespace
+          using straightforward team management capabilities.
+        </p>
+      </div>
+      <div>
+        <img src="./images/familiar-features.svg" />
+        <h5>Familiar features</h5>
+        <p>
+          npm Orgs has 100% parity with all the public npm registry features
+          your developers already use.
+        </p>
+      </div>
+      <div>
+        <img src="./images/npm-audit.svg" />
+        <h5>npm audit</h5>
+        <p>
+          Enjoy the security auditing features built into the npm client, a
+          zero-friction way to make open source software safer.
+        </p>
+      </div>
+      <button>Create an Org</button>
+    </section>
   </body>
 </html>
