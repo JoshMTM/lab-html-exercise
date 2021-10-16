@@ -81,3 +81,63 @@ nav a {
   height: 40px;
   width: 80px;
 }
+
+#join {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 600px;
+  background-color: rgba(232, 217, 217, 0.3);
+}
+
+#join > h1 {
+  font-size: 5em;
+  margin-bottom: 10px;
+}
+
+#join > article {
+  height: 80px;
+  width: 400px;
+  margin-top: 10px;
+}
+
+.plan-button {
+  margin: 25px;
+  height: 40px;
+  width: 150px;
+  background-color: #fb3b49;
+  box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2);
+}
+
+.join-button2 {
+  margin: 25px;
+  height: 40px;
+  width: 150px;
+  border: none;
+}
+.join-button2 a {
+  text-decoration: none;
+}
+
+#tool {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 600px;
+  background-color: white;
+}
+
+#tool > img {
+  width: 400px;
+}
+
+#tool > h3 {
+  font-size: 2em;
+  margin: 20px;
+}
