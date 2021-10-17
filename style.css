@@ -36,12 +36,12 @@ nav a {
 }
 
 .logo-npm {
-  width: 200px;
+  width: 150px;
 }
 
 .seach-icon {
   width: 20px;
-  margin: 25px 5px 25px 25px;
+  margin: 15px 5px 20px 25px;
 }
 
 .form-header {
@@ -52,7 +52,6 @@ nav a {
   color: gray;
   padding-left: 15px;
   width: 90%;
-  background-color: rgba(0, 0, 0, 0.05);
 }
 .form-header > input {
   border: none;
@@ -62,6 +61,7 @@ nav a {
   height: 40px;
   width: 75%;
   margin: 15px 5px 25px 5px;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .form-header > button {
@@ -69,17 +69,34 @@ nav a {
   color: white;
   height: 40px;
   width: 100px;
-  margin: 20px;
+  margin: 15px;
   margin-left: 0;
 }
 
 .button-header {
   display: flex;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
-.button-header > button {
-  margin: 5px;
+.btn-header-join {
   height: 40px;
   width: 80px;
+}
+.btn-header-join > a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-header-login {
+  height: 40px;
+  width: 80px;
+  text-decoration: none;
+  border: none;
+  background-color: white;
+}
+.btn-header-login > a {
+  text-decoration: none;
+  color: black;
 }
 
 #join {
@@ -116,6 +133,7 @@ nav a {
 
 .plan-button a {
   text-decoration: none;
+  color: white;
 }
 
 .join-button2 {
@@ -128,6 +146,7 @@ nav a {
 }
 .join-button2 a {
   text-decoration: none;
+  color: black;
 }
 
 #tool {
@@ -169,6 +188,7 @@ nav a {
   align-content: center;
   height: 600px;
   background-color: white;
+  margin-bottom: 0;
 }
 
 #last-sec > div {
@@ -187,9 +207,16 @@ nav a {
 }
 
 .org-btn {
+  display: flex;
   justify-content: center;
-  height: 40px;
-  width: 150px;
+  margin-top: 0;
+}
+
+.org-btn > button {
+  height: 50px;
+  width: 250px;
   box-shadow: 8px 8px 0 rgba(128, 83, 35, 0.2);
   color: white;
+  background-color: black;
+  text-align: center;
 }
