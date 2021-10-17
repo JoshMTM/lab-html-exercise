@@ -106,17 +106,25 @@ nav a {
 
 .plan-button {
   margin: 25px;
-  height: 40px;
-  width: 150px;
+  height: 50px;
+  width: 200px;
   background-color: #fb3b49;
+  border: none;
   box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2);
+  font-weight: 800;
+}
+
+.plan-button a {
+  text-decoration: none;
 }
 
 .join-button2 {
   margin: 25px;
-  height: 40px;
-  width: 150px;
+  height: 50px;
+  width: 200px;
   border: none;
+  background-color: white;
+  font-weight: 800;
 }
 .join-button2 a {
   text-decoration: none;
@@ -134,10 +142,54 @@ nav a {
 }
 
 #tool > img {
-  width: 400px;
+  width: 300px;
 }
 
 #tool > h3 {
   font-size: 2em;
   margin: 20px;
+  background-color: rgba(255, 204, 53, 0.4);
+  font-style: italic;
+  transform: skew(9deg, 0deg);
+}
+
+#tool > article {
+  height: 80px;
+  width: 550px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+#last-sec {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  height: 600px;
+  background-color: white;
+}
+
+#last-sec > div {
+  height: 250px;
+  width: 250px;
+  margin: 20px;
+}
+
+#last-sec > div > img {
+  width: 30px;
+}
+
+#last-sec > div > h5 {
+  color: #ed1c24;
+  font-size: 1rem;
+}
+
+.org-btn {
+  justify-content: center;
+  height: 40px;
+  width: 150px;
+  box-shadow: 8px 8px 0 rgba(128, 83, 35, 0.2);
+  color: white;
 }
